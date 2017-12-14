@@ -1,0 +1,11 @@
+<?php
+
+
+require_once 'Taula.php';
+
+$taula = new Taula(2,4);
+
+$taula->assignar_celda($x, $y, $font, $fons, $contingut);
+$taula->printar();
+?>
+
